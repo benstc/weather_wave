@@ -90,7 +90,7 @@ class weatherwave():
         this function will parse the csv file and return the array of 730 days of avg temps
         """
         avgtemps = []
-        with open('newCSV.csv', 'r') as csv_file:
+        with open('data/newCSV.csv', 'r') as csv_file:
             reader = csv.reader(csv_file)
             next(reader)
 
